@@ -14,7 +14,7 @@ def fibonacci_recursive(n: int):
 
 def fibonacci_iterative(n: int):
     if n == 0:
-        return 0
+        return 1
     if n == 1:
         return 1
     else:
@@ -27,3 +27,22 @@ def fibonacci_iterative(n: int):
             b = result
         return result
 
+
+def fibonacci_series(n: int):
+    if n == 0:
+        return 1
+    if n == 1:
+        return 1
+    else:
+        a: int = 1
+        b: int = 1
+        result: int = 0
+        series: list = [1, 1]
+
+        for i in range(n):
+            result = a + b
+            a = b
+            b = result
+            series.append(result)
+
+        return series
