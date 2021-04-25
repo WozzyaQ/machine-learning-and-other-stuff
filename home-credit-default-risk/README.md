@@ -1,1 +1,1 @@
-[Kaggle competition](www.kaggle.com/c/home-credit-default-risk)
+[Kaggle competition](www.kaggle.com/c/home-credit-default-risk/)
